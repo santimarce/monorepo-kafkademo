@@ -1,4 +1,4 @@
 package com.microkafka.clients.dto;
 
-public class ClientDto {
+public record ClientDto(String name, String email) {
 }

@@ -1,4 +1,6 @@
 package com.microkafka.claims.dto;
 
-public record ClaimDto() {
+import java.time.LocalDate;
+
+public record ClaimDto(Long policyId, String description, LocalDate creationDate) {
 }
